@@ -35,6 +35,10 @@ Code for Paper: "LLM-based Two-Level Foodborne Illness Detection Label Annotatio
 1. run roberta_bertweet/exp_[MODEL_NAME]_[multi/sequence/token].sh for two-level/post-level/word-level labeling
 2. run roberta_bertweet/exp_compute_[MODEL_NAME]_[multi/sequence/token].sh for evaluating two-level/post-level/word-level labels
 
+### Supervised Learning Configs
+* specify roberta/bertweet in exp_roberta_XXX.sh
+* use model version without "crf"
+
 Change data path or model name if needed. You can use the [submit_exp.sh](submit_exp.sh) to manage LLM job submissions.
 
 For more about AutoLabel, you are referred to [AutoLabel Introduction](https://docs.refuel.ai/autolabel/introduction/).
